@@ -554,10 +554,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.mt-11 {
-  margin-top: 2.75rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -566,104 +562,32 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .flex {
   display: flex;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[100\] {
-  height: 100;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
 }
 
 .h-screen {
   height: 100vh;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[375px\] {
-  width: 375px;
-}
-
-.w-\[100px\] {
-  width: 100px;
-}
-
-.w-\[1000px\] {
-  width: 1000px;
-}
-
-.w-\[1px\] {
-  width: 1px;
-}
-
-.w-\[375rem\] {
-  width: 375rem;
+.w-\[45rem\] {
+  width: 45rem;
 }
 
 .w-full {
   width: 100%;
 }
 
-.w-\[320\] {
-  width: 320;
-}
-
-.w-\[320px\] {
-  width: 320px;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-2\/5 {
-  width: 40%;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.w-\[50rem\] {
-  width: 50rem;
-}
-
-.w-\[60rem\] {
-  width: 60rem;
-}
-
-.w-\[40rem\] {
-  width: 40rem;
-}
-
-.w-\[45rem\] {
-  width: 45rem;
+.list-disc {
+  list-style-type: disc;
 }
 
 .flex-col {
@@ -682,42 +606,26 @@ video {
   gap: 1rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-md {
   border-radius: 0.375rem;
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
-.bg-stone-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 230 216 / var(--tw-bg-opacity));
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
-.bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
 }
 
-.bg-yellow-100 {
+.bg-rose-50 {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 252 232 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(133 77 14 / var(--tw-bg-opacity));
+  background-color: rgb(255 245 250 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -725,20 +633,61 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-10 {
-  padding: 2.5rem;
+.bg-yellow-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 252 232 / var(--tw-bg-opacity));
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-5 {
   padding: 1.25rem;
 }
 
-.p-7 {
-  padding: 1.75rem;
+.p-4 {
+  padding: 1rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.p-3 {
+  padding: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .font-p {
@@ -749,19 +698,14 @@ video {
   font-family: Young-serif;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-xl {
@@ -769,8 +713,9 @@ video {
   line-height: 1.75rem;
 }
 
-.font-normal {
-  font-weight: 400;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -781,12 +726,107 @@ video {
   line-height: 1.5;
 }
 
+.text-stone-600 {
+  --tw-text-opacity: 1;
+  color: rgb(95 87 78 / var(--tw-text-opacity));
+}
+
 .text-stone-900 {
   --tw-text-opacity: 1;
   color: rgb(48 45 44 / var(--tw-text-opacity));
 }
 
-.text-stone-600 {
+.text-rose-800 {
   --tw-text-opacity: 1;
-  color: rgb(95 87 78 / var(--tw-text-opacity));
+  color: rgb(123 40 79 / var(--tw-text-opacity));
+}
+
+.marker\:text-lg *::marker {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.marker\:text-\[1px\] *::marker {
+  font-size: 1px;
+}
+
+.marker\:text-\[1rem\] *::marker {
+  font-size: 1rem;
+}
+
+.marker\:text-\[\.5rem\] *::marker {
+  font-size: .5rem;
+}
+
+.marker\:text-\[0\.5rem\] *::marker {
+  font-size: 0.5rem;
+}
+
+.marker\:text-\[0\.8rem\] *::marker {
+  font-size: 0.8rem;
+}
+
+.marker\:text-\[0\.7rem\] *::marker {
+  font-size: 0.7rem;
+}
+
+.marker\:text-\[\.7rem\] *::marker {
+  font-size: .7rem;
+}
+
+.marker\:text-rose-800 *::marker {
+  color: rgb(123 40 79 );
+}
+
+.marker\:text-\[\] *::marker {
+  color: ;
+}
+
+.marker\:text-\[\.rem\] *::marker {
+  color: .rem;
+}
+
+.marker\:text-lg::marker {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.marker\:text-\[1px\]::marker {
+  font-size: 1px;
+}
+
+.marker\:text-\[1rem\]::marker {
+  font-size: 1rem;
+}
+
+.marker\:text-\[\.5rem\]::marker {
+  font-size: .5rem;
+}
+
+.marker\:text-\[0\.5rem\]::marker {
+  font-size: 0.5rem;
+}
+
+.marker\:text-\[0\.8rem\]::marker {
+  font-size: 0.8rem;
+}
+
+.marker\:text-\[0\.7rem\]::marker {
+  font-size: 0.7rem;
+}
+
+.marker\:text-\[\.7rem\]::marker {
+  font-size: .7rem;
+}
+
+.marker\:text-rose-800::marker {
+  color: rgb(123 40 79 );
+}
+
+.marker\:text-\[\]::marker {
+  color: ;
+}
+
+.marker\:text-\[\.rem\]::marker {
+  color: .rem;
 }
